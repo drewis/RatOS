@@ -2,7 +2,7 @@ name: Build RatOS
 on:
   push:
     branches:
-      - "v2.x"
+      - "development"
     paths:
       - "src/modules/**"
       - "src/build_dist"
